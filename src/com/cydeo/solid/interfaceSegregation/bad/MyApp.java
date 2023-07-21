@@ -17,8 +17,8 @@ public class MyApp {
     }
 
     public static void letBirdsFly(List<Bird> birds) {
-        for (Bird bird : birds) {
-            bird.fly();     // Does nothing for chicken
+        for (Bird each : birds) {
+            each.fly();     // Does nothing for chicken
         }
     }
 
