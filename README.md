@@ -26,12 +26,12 @@
 	* A client shouldn't be forced to implement an interface or depend on a method it does not use. 
 	* Bird, fly() example
 
-           Note: Difference between LSP and ISP -> LSP: We need to substitute the subclasses from their parents.
-							                         ISP: We need to divide a bigger interface to smaller pieces.
+        Note: Difference between LSP vs ISP -> LSP: We need to substitute the subclasses from their parents.
+			                    -> ISP: We need to divide a bigger interface to smaller pieces.
 
 - DIP: The Dependency Inversion Principle
 	* Entities must depend on abstractions, not on concretions. The high level modules must not depend on the low level modules.
 	* Example about connecting a light bulb directly to a battery or connecting it to a switch and connecting switch to a battery.
 	* FileReader example -> SQLReader, JSONReader, XMLReader, TextFileReader
 	* So in here the high level module has a dependency on a low level module.
-![image](https://github.com/selimdemirer/solid_principles/assets/125173819/83f66fce-2ba1-401d-804d-82d3b6f27e17)
+
